@@ -12,7 +12,7 @@ public int getIDCarrito() {
         return IDCarrito;
     }
 
-    public void setIDCarrito(int Cilindraje) {
+    public void setIDCarrito(int IDCarrito) {
         this.IDCarrito = IDCarrito;
     }
 
@@ -20,7 +20,7 @@ public int getIDCarrito() {
         return CedulaCliente;
     }
 
-    public void setColor(String Color) {
+    public void setCedulaCliente(int CedulaCliente) {
         this.CedulaCliente = CedulaCliente;
     }
 public int ValidarCedula(int cedula){
