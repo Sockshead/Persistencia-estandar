@@ -1,0 +1,30 @@
+package MainClases
+
+public class Carrito {
+    private int IDCarrito;
+    private int CedulaCliente;
+    
+public Carrito (int idcarrito, int cedulacliente){
+    this.IDCarrito = idcarrito;
+    this.cedulacliente = cedulacliente;
+}
+public int getIDCarrito() {
+        return IDCarrito;
+    }
+
+    public void setIDCarrito(int Cilindraje) {
+        this.IDCarrito = IDCarrito;
+    }
+
+    public int CedulaCliente() {
+        return CedulaCliente;
+    }
+
+    public void setColor(String Color) {
+        this.CedulaCliente = CedulaCliente;
+    }
+public int ValidarCedula(int cedula){
+
+
+} 
+}
