@@ -1,0 +1,21 @@
+1068874366,Anaya Ortega,Jose Andres
+1061141548,Arcila Duque,Jacobo
+1057149335,Cardenas Esguerra,Daniel Alejandro
+1047060104,Cruz Torres,Danna Yulissa
+1016224793,Giraldo Paris,Pablo Andres
+1056131194,Lopez Ortega,Oscar Julian
+1065324044,Medrano Lozano,Juan Felipe
+1001231110,Muñoz Moreno,Blayfer David
+1079470566,Navallas Cobaleda,Jose Miguel
+1009342945,Oliveros Angarita,Luis Alfredo
+1048723186,Parrado Galvis,Carlos Enrique
+1000806527,Perez Perdomo,Maria Alejandra
+1029813683,Pimentel Gonzalez,Manuel
+1007092734,Pinto Moreno,Natalia
+1040323073,Quintana Rodriguez,Daniela
+1086300719,Quintero Corredor,Juan Sebastian
+1080674627,Rey Torres,Maria Jose
+1084017550,Rodriguez Robayo,Julian Andres
+1085257065,Rojas Rodriguez,Sergio Ivan
+1029591866,Sanchez Reyes,Juan Nicolas
+
