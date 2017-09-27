@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Modelo;
 
 import java.io.BufferedReader;
@@ -12,44 +7,41 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- *
- * @author mate_
- */
-public class PersistenciaAsignaProf {
+
+public class PersistenciaAsignaCarrito {
     private String Modo;
-    private String NombreArchivo = "AsignaProf";
+    private String NombreArchivo = "AsignaCarrito";
     BufferedWriter Bw;
     BufferedReader Br;
    
     
-    public ArrayList <AsignaProf>  CargarTodo()
+    public ArrayList <AsignaCarrito>  CargarTodo()
   {
-     ArrayList <AsignaProf> ArrayAsignaProf = new  ArrayList <>();
-     AsignaProf Asig=null;
+     ArrayList <AsignaCarrito> ArrayAsignaCarrito = new  ArrayList <>();
+     AsignaCarrito Asig=null;
      if (abrirConexion("Lectura"))
      {
-         while ( (Asig=LeerAsignaProf() ) != null)
+         while ( (Asig=LeerAsignaCarrito() ) != null)
          {
-             ArrayAsignaProf.add(Asig);
+             ArrayAsignaCarrito.add(Asig);
          }
          cerrar();
      }
-      return ArrayAsignaProf;  
+      return ArrayAsignaCarrito;  
   }
-    public void GuardarTodo(ArrayList <AsignaProf> ArrayA)
+    public void GuardarTodo(ArrayList <AsignaCarrito> ArrayA)
   {
       if ( abrirConexion("Escritura") )
       {
           for (int i=0; i < ArrayA.size(); i++)
           {
-              GrabarAsignaProf(ArrayA.get(i));
+              GrabarAsignaCarrito(ArrayA.get(i));
           }
           cerrar();
       }
   }
 
-    public void GrabarAsignaProf(AsignaProf Asig) {
+    public void GrabarAsignaCarrito(AsignaCarrito Asig) {
         try {
             Bw.write(Asig.toString());
             Bw.newLine();
@@ -58,9 +50,9 @@ public class PersistenciaAsignaProf {
         }
     }
     
-    public AsignaProf LeerAsignaProf()
+    public AsignaCarrito LeerAsignaCarrito()
     {   String Texto="";
-        AsignaProf Asig = new AsignaProf();
+        AsignaCarrito Asig = new AsignaCarrito();
         try {   Texto = Br.readLine();
             if (Texto != null)
             {
